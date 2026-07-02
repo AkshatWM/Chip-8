@@ -40,7 +40,7 @@ Launch the executable and pass your favorite CHIP-8 ROM as an argument(For examp
 ## Controls Configuration-
 
 | Original Keypad | Keyboard Key | Default Tetris Map |
-| -------------------- | -------------------- |
+| :---: | :---: | :---: |
 | 4 | Q | 🔄 Rotate Piece |
 | 5 | W | ⬅️ Move Left |
 | 6 | E | ➡️ Move Right |
