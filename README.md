@@ -59,9 +59,10 @@ Launch the executable and pass your favorite CHIP-8 ROM as an argument(For examp
 | **`V`** | `0xF` | Action |
 | **`ESC`** | — | 🛑 Safe Exit / Close Emulator |
 
-## Visual Layout Reference- 
+### Visual Layout Reference- 
 
-Modern QWERTY Input Grid         Classic Hex Keypad Array
+```text
+ Modern QWERTY Input Grid         Classic Hex Keypad Array
 +---+---+---+---+                +---+---+---+---+
 | 1 | 2 | 3 | 4 |  =========>    | 1 | 2 | 3 | C |
 +---+---+---+---+                +---+---+---+---+
@@ -71,6 +72,7 @@ Modern QWERTY Input Grid         Classic Hex Keypad Array
 +---+---+---+---+                +---+---+---+---+
 | Z | X | C | V |  =========>    | A | 0 | B | F |
 +---+---+---+---+                +---+---+---+---+
+```
 
 ## Architecture Overview
 
