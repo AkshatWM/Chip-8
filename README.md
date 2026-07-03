@@ -39,14 +39,38 @@ Launch the executable and pass your favorite CHIP-8 ROM as an argument(For examp
 
 ## Controls Configuration-
 
-| Original Keypad | Keyboard Key | Default Tetris Map |
-| :---: | :---: | :---: |
-| 4 | Q | 🔄 Rotate Piece |
-| 5 | W | ⬅️ Move Left |
-| 6 | E | ➡️ Move Right |
-| 0 | X | Secondary Actions |
-| 1 - 3 | 1 - 3 | System Inputs |
-| — | ESC | 🛑 Safe Exit / Quit |
+| Modern Keyboard Key | Mapped CHIP-8 Key (Hex Index) | Typical Original Function |
+| :---: | :---: | :--- |
+| **`1`** | `0x1` | Left / Player 1 Up |
+| **`2`** | `0x2` | Up |
+| **`3`** | `0x3` | Right / Player 1 Down |
+| **`4`** | `0xC` | Menu Select / Action |
+| **`Q`** | `0x4` | **Tetris Rotate** / Left |
+| **`W`** | `0x5` | **Tetris Move Left** / Up |
+| **`E`** | `0x6` | **Tetris Move Right** / Right |
+| **`R`** | `0xD` | Action |
+| **`A`** | `0x7` | Left |
+| **`S`** | `0x8` | Down |
+| **`D`** | `0x9` | Right |
+| **`F`** | `0xE` | Action |
+| **`Z`** | `0xA` | Menu / Shift |
+| **`X`** | `0x0` | Secondary Action |
+| **`C`** | `0xB` | Menu / Shift |
+| **`V`** | `0xF` | Action |
+| **`ESC`** | — | 🛑 Safe Exit / Close Emulator |
+
+## Visual Layout Reference- 
+
+Modern QWERTY Input Grid         Classic Hex Keypad Array
++---+---+---+---+                +---+---+---+---+
+| 1 | 2 | 3 | 4 |  =========>    | 1 | 2 | 3 | C |
++---+---+---+---+                +---+---+---+---+
+| Q | W | E | R |  =========>    | 4 | 5 | 6 | D |
++---+---+---+---+                +---+---+---+---+
+| A | S | D | F |  =========>    | 7 | 8 | 9 | E |
++---+---+---+---+                +---+---+---+---+
+| Z | X | C | V |  =========>    | A | 0 | B | F |
++---+---+---+---+                +---+---+---+---+
 
 ## Architecture Overview
 
